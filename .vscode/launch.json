@@ -8,6 +8,48 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "Lecture.a01.a03문장속단어.Main",
+            "projectName": "algorithm_88c9da2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch aa",
+            "request": "launch",
+            "mainClass": "Lecture.a01.a02대소문자변환.aa",
+            "projectName": "algorithm_88c9da2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Lecture.a01.a02대소문자변환.Main",
+            "projectName": "algorithm_88c9da2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Lecture.a01.a01문자찾기.Main",
+            "projectName": "algorithm_88c9da2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "algorithm_88c9da2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Lecture.a01.Main",
+            "projectName": "algorithm_88c9da2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "BOJ.basic.a10869.deanoh533.Main",
             "projectName": "algorithm_88c9da2f"
         },
