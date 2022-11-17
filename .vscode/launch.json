@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "Lecture.a01.a06중복된문자제거.Main",
+            "projectName": "algorithm_88c9da2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "Lecture.a01.a05특정문자뒤집기.Main",
             "projectName": "algorithm_88c9da2f"
         },
