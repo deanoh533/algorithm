@@ -11,8 +11,8 @@ public class Main {
 
         while(lt<rt){
 
-            if(Character.isAlphabetic(c[lt])) lt++;
-            else if(Character.isAlphabetic(c[rt])) rt++;
+            if(!Character.isAlphabetic(c[lt])) lt++;
+            else if(!Character.isAlphabetic(c[rt])) rt++;
             else{
             char temp = c[lt];
             c[lt] = c[rt];
@@ -23,8 +23,8 @@ public class Main {
             }
         }
 
-        answer = c.toString();
-        
+        //answer = c.toString();
+        answer = String.valueOf(c);
         return answer;
 
     }
