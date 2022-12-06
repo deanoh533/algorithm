@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "Lecture.a01.a10가장짧은문자거리.Main",
+            "projectName": "algorithm_88c9da2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "Lecture.a01.a09숫자만추출.Main",
             "projectName": "algorithm_88c9da2f"
         },
