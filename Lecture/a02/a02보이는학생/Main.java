@@ -29,10 +29,17 @@ package Lecture.a02.a02보이는학생;
 import java.util.Scanner;
 
 public class Main {
-    public String solution(String str){
+    public int solution(int n, int [] s){
 
-        String answer = "";
+        int answer = 0;
+        int b = 0;
 
+        for (int i = 0 ; i < n ; i++ ){
+            if (b < s[i]){
+                answer ++ ;
+                b = s[i];
+            }
+        }
         
         return answer;
 
@@ -41,8 +48,12 @@ public class Main {
     public static void main(String[] args) {
         Main T = new Main();
 		Scanner kb = new Scanner(System.in);
-		String str=kb.next();
-		System.out.println(T.solution(str));
+		int n=kb.nextInt();
+        int [] s = new int[n];
+        for (int i = 0 ; i < n ;i++){
+            s[i] = kb.nextInt();
+        }
+		System.out.println(T.solution(n, s));
 
     }
 }
