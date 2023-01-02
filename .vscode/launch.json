@@ -8,16 +8,16 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "Lecture.a02.a08등수구하기.Main",
+            "projectName": "algorithm_88c9da2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "Lecture.a02.a08테스트.Main",
             "projectName": "algorithm_88c9da2f"
         },
-        // {
-        //     "type": "java",
-        //     "name": "Launch Main",
-        //     "request": "launch",
-        //     "mainClass": "Lecture.Sample.Main",
-        //     "projectName": "algorithm_88c9da2f"
-        // },
         {
             "type": "java",
             "name": "Launch Main",
