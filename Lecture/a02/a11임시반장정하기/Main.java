@@ -89,7 +89,7 @@ public class Main {
 		Scanner kb = new Scanner(System.in);
 		int n =kb.nextInt();
         int [][] arr = new int[n+1][6];
-        for (int i = 1 ; i<n ; i++){
+        for (int i = 1 ; i<=n ; i++){
             for (int j = 1 ; j<=5 ; j++){
                 arr[i][j] =kb.nextInt();
             }
@@ -98,3 +98,4 @@ public class Main {
 
     }
 }
+
