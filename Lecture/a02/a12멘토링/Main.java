@@ -74,7 +74,7 @@ public class Main {
         Main T = new Main();
 		Scanner kb = new Scanner(System.in);
 		int n =kb.nextInt();
-        int m =kb.nextInt();
+        int m =kb.nextInt(); 
         int [][] arr = new int[m][n];
         for (int i = 0 ; i<m ; i++){
             for (int j = 0 ; j<n ; j++){
