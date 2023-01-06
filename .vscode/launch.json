@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Lecture.Sample.Test",
+            "projectName": "algorithm_88c9da2f"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Lecture.a03.a02공통원소구하기.Main",

@@ -1,7 +1,7 @@
 # JAVA Study
 [1. 두 배열을 합치는 방법 4가지](#1-두-배열을-합치는-방법)  
 [2. 키보드로 사용자 입력받는 방법 2가지](#2-키보드로-사용자-입력받는-방법-2가지)  
-[3. 안녕](#3안녕)  
+[3. 오름차순 정렬과 내림차순 정렬](#3-오름차순-정렬과-내림차순-정렬)  
 
 ---
  ## 1. 두 배열을 합치는 방법 
@@ -310,4 +310,57 @@ Scanner 가 더 읽어들일 Line이 있는지 체크 true, false 로 반환.
 토큰별로 입력값을 읽어 String 반환
 
 
-## 3.안녕
+## 3. 오름차순 정렬과 내림차순 정렬
+### 1) 오름차순 정렬
+- 코드
+```java
+int a[] = {5,3,2,4,1};
+Arrays.sort(a);
+System.out.println(Arrays.toString(a));
+```
+- 결과
+```
+[1,2,3,4,5]
+```
+
+### 2) 내림차순 정렬
+#### 2-1) Arrays.sort(A, Collections.reverseOrder()) 사용
+- Collections.reverseOrder()는 객체에만 사용할 수 있다. 그러므로, **Integer**를 사용해야한다.
+- 코드
+```java
+int a[] = {5,3,2,4,1};
+Arrays.sort(a, Collections.reverseOrder());
+System.out.println(Arrays.toString(a));
+```
+- 결과
+```
+[5, 4, 3, 2, 1]
+```
+
+#### 2-2)  Stream 활용
+- 코드
+
+```java
+int a[] = {5,3,2,4,1};
+Interger[] temp = Arrays.stream(a).boxed().toArray(Integer[]::new);
+Arrays.sort(tmp, Collections.reverseOrder());
+System.out.println(Arrays.toString(temp));
+```
+- 결과
+```
+[5, 4, 3, 2, 1]
+```
+
+#### 2-3) -1을 곱해서 저장하는 방법
+
+- 코드
+```java
+int a[] = {5,3,2,4,1};
+int a[] = {-5,-3,-2,-4,-1}; 로 변환!!
+Arrays.sort(a);
+System.out.println(Arrays.toString(a));
+```
+- 결과
+```
+[-5, -4, -3, -2, -1] // 그리고 -1을 곱해서 다시 출력한다.
+```
