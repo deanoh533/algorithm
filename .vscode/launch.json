@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "Lecture.a03.a02공통원소구하기.Main",
+            "projectName": "algorithm_88c9da2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "Lecture.a03.a01두배열합치기.Main",
             "projectName": "algorithm_88c9da2f"
         },
